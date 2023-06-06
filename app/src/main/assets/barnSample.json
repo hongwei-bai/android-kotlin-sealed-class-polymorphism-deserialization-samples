@@ -1,0 +1,15 @@
+[
+  {
+    "animal": {
+      "age": 5,
+      "name": "ponyA"
+    },
+    "type": "horse"
+  },
+  {
+    "animal": {
+      "milkColor": "white"
+    },
+    "type": "cow"
+  }
+]

@@ -3,6 +3,7 @@ package com.example.gsontest.data
 import android.content.Context
 import android.util.Log
 import com.example.gsontest.data.project.testBarn
+import com.example.gsontest.data.project.testComponent
 import com.example.gsontest.util.LocalResourceUtil
 import com.google.gson.GsonBuilder
 import com.google.gson.typeadapters.RuntimeTypeAdapterFactory
@@ -16,7 +17,8 @@ class ContentRepository {
 //        jsonString?.let {
 //            solution4(jsonString)
 //        }
-        testBarn()
+        testBarn(context)
+        testComponent(context)
     }
 }
 

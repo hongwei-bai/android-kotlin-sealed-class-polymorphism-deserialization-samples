@@ -1,0 +1,14 @@
+[
+  {
+    "header": {
+      "headerText": "This is title",
+      "level": 1
+    }
+  },
+  {
+    "button": {
+      "buttonText": "Click me",
+      "deeplink": "https://www.google.com"
+    }
+  }
+]
