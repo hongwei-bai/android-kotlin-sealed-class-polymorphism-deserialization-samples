@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        google()
+        maven { url "https://artifactory.cronapp.io/public-release/" }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        maven { url "https://artifactory.cronapp.io/public-release/" }
+        mavenCentral()
+    }
+}
+rootProject.name = "GsonTest"
+include ':app'

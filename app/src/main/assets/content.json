@@ -1,0 +1,23 @@
+{
+  "list": [
+    {
+      "header": {
+        "name": "(Gson branch)Experiments 2023",
+        "date": "April 1st, 2023",
+        "description": "Easter"
+      },
+      "button": {
+        "name": "This is a button",
+        "style": "Outlined",
+        "deeplink": "/travelhub/"
+      },
+      "card": {
+        "id": 2,
+        "name": "card Two",
+        "isActivated": false,
+        "isHighlight": false,
+        "expire": "2026-1-1"
+      }
+    }
+  ]
+}
